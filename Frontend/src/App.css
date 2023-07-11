@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'champion';
+    src: url(./Cute\ Notes.ttf);
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #14609e;
+    border-radius: 5px;
+}
+.title{
+    padding: 1.2rem;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'champion';
+    width: fit-content;
+    margin: auto;
+    color: #219;
+}
+.activeUser{
+    background-color: transparent !important;
+    border: 1px solid #000 !important;
+    border-radius: 5px !important;
+    cursor: default !important;
+}
+.msgYou{
+    border: 1px solid blue;
+    border-radius: 0.78rem !important;
+}
+.msgHim{
+    border: 1px solid green;
+    border-radius: 0.78rem !important;
+}
+.typing{
+    font-size: 0.8rem;
+    color: #14609e;
+    font-style: italic;
+}

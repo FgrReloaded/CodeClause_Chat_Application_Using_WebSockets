@@ -1,0 +1,27 @@
+.onlineIcon{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: lightgreen;
+}
+.infobar{
+    background-color: rgba(255, 255, 255, 0.05);
+}
+h3{
+    font-size: 1.3rem;
+}
+.x{
+    font-weight: bolder;
+    display: block;
+    font-size: 1.24rem;
+    font-family: monospace;
+    transition: 0.2s ease-in-out;
+}
+.x:hover{
+    cursor: pointer;
+    color: red;
+}
+.infobarrow{
+    align-items: center;
+    justify-content: center;
+}

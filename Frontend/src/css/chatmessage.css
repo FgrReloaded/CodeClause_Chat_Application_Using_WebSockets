@@ -1,0 +1,37 @@
+.msg{
+    padding: 0.4rem;
+    width: fit-content;
+    font-size: 1.1rem;
+
+}
+.sentText{
+    color: brown;
+    font-size: 0.89rem;
+    font-weight: bold;
+}
+.msg p{
+    width: fit-content;
+    border-radius: 1rem;
+}
+.owned{
+    text-align: -webkit-right;
+}
+
+.type{
+    width: fit-content;
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+.messages-container{
+    width: 100%;
+    overflow: auto;
+    /* height: 100vh; */
+}
+@media (max-width: 400px){
+    .msg{
+        font-size: 0.9rem;
+    }
+    .sentText{
+        font-size: 0.69rem;
+    }
+}

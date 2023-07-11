@@ -1,0 +1,35 @@
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.textarea{
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    border: none;
+    width: 100%;
+    outline: none;
+    margin-right: 5px;
+}
+.fa-face-smile-plus, .fa-paper-plane{
+    margin: 0px 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.fa-face-smile-plus:hover, .fa-paper-plane:hover{
+    color: red;
+}
+.send{
+    border: none;
+    background: none;
+}
+
+@media (max-width: 380px){
+    .form-box{
+        padding: 0.2rem !important;
+    }
+    .fa-paper-plane{
+        font-size: 1.5rem;
+    }
+}
